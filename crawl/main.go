@@ -53,11 +53,16 @@ func main(){
 			log.Fatalln(err)
 		}
 		Dom := dom.Find("article")
-		for n := 0
+
 		str := Dom.Text()
-
-
 		file.WriteString(str)
-		println(str)
+				println(str)
+
+
+		
+
+
+
 	}
+
 }
